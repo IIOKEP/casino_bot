@@ -21,6 +21,7 @@ class General(commands.Cog):
     async def help(self, ctx):
         embed = discord.Embed(title="Казино-бот", description="\u200B", color=discord.Colour.blurple())
         embed.add_field(name="Основные команды:", value="** *casino [cтавка]**: Запускает слот-машину.\n** *info**: Показывает информацию о вас(баланс, скин).\n** *getmoney**: Выдает валюту один раз в час.", inline=True)
+        embed.add_field(name="\u200B", value="\n** *shop**: Открывает магазин с лут-боксами.\n** *buy [название товара]**: Покупка товара в магазине.")
         embed.set_thumbnail(url="https://memepedia.ru/wp-content/uploads/2018/03/ebanyy-rot-etogo-kazino.png")
         embed.set_author(name="Cyberiiokep", icon_url="https://w0.pngwave.com/png/1003/599/pixel-art-mario-coin-png-clip-art.png")
         embed.set_footer(text="Данный бот не имеет никакого отношения к настоящим казино.", icon_url="https://cdn.imgbin.com/3/11/12/imgbin-emoji-social-media-discord-sticker-emotion-emoji-stbYECVvRACa2ERnLwB8Hrih7.jpg")
